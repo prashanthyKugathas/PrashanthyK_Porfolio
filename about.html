@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-about">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Portfolio</a>
+      <button class="nav-toggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About Me</a></li>
+          <li><a href="education.html">Education &amp; Skills</a></li>
+          <li><a href="projects.html">Projects &amp; Experience</a></li>
+          <li><a href="achievements.html">Achievements &amp; Extracurricular</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <h1>About Me</h1>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <span class="shape shape-1"></span>
+          <span class="shape shape-2"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile container">
+      <div class="profile-grid">
+        <div class="profile-photo reveal">
+            <div class="photo-frame">
+                <img src="Assets/images/prashanthy.jpg" alt="Prashanthy Kugathas">
+            </div>
+        </div>
+        <div class="profile-details reveal">
+          <h2 class="name">Prashanthy Kugathas</h2>
+          <p class="subtitle">BSc in ICT Undergraduate</p>
+          <p class="intro">I am a Third year ICT undergraduate with a strong interest in Business Analysis and Project Management. I enjoy applying analytical thinking, problem-solving skills, and technical knowledge to create meaningful solutions. Through academic projects, research activities, and extracurricular involvement, I continue to develop both my professional and personal capabilities while preparing for a career in the technology industry.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <h3 class="section-title reveal">Interests On</h3>
+      <div class="highlights-grid">
+        <article class="card reveal">
+          <div class="card-icon">
+            <!-- Business Analysis icon -->
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3 3h18v4H3z" fill="#0A2540" opacity="0.9"/>
+              <path d="M5 11h4v8H5zM11 7h4v12h-4zM17 13h4v6h-4z" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <h4>Business Analysis</h4>
+          <p class="muted">Analytical thinking to identify business needs.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">
+            <!-- Project Management icon -->
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="6" rx="1" fill="#0A2540"/>
+              <path d="M5 12h14v7H5z" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <h4>Project Management</h4>
+          <p class="muted">Planning and delivery with clear stakeholder focus.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">
+            <!-- Research & Innovation icon -->
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="8" r="3" fill="#0A2540"/>
+              <path d="M6 18c1-3 5-4 6-4s5 1 6 4" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <h4>Research &amp; Innovation</h4>
+          <p class="muted">Curiosity-driven exploration and practical application.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon">
+            <!-- Teamwork icon -->
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 12a3 3 0 100-6 3 3 0 000 6z" fill="#0A2540"/>
+              <path d="M4 20a6 6 0 0116 0H4z" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <h4>Teamwork</h4>
+          <p class="muted">Collaborative contributor in diverse teams.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Portfolio — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
